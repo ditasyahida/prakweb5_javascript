@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>	
+        <title>IMAGE PICKER</title></head>
+        <body style="margin: 200px"> 	<center>		
+            <select onchange="gantigambar();" id="listgambar">			
+                <option value="https://www.google.com/imgres?imgurl=https%3A%2F%2Fobs.line-scdn.net%2F0hQnMe6uujDkFwHCWFr-VxFkpKDS5DcB1CFCpfXyByUHUIfEtCTyoVL1NPUSNYKEkfHilIJ1IaFXANeR5ARHIV%2Fw644&imgrefurl=https%3A%2F%2Ftoday.line.me%2Fid%2Fv2%2Farticle%2F99mY7m&tbnid=J9Ofe7OOuciz7M&vet=1&docid=2EDdt5wkV5bPRM&w=644&h=432&hl=en-GB&source=sh%2Fx%2Fim">PILIH KARAKTER</option>			
+                <option value="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmoviexplorers.com%2Fwp-content%2Fuploads%2F2014%2F09%2Fdmjmrsv8mpgb9rp6laup.jpg&imgrefurl=https%3A%2F%2Fmoviexplorers.com%2Fpara-karakter-frozen-akan-kembali-dalam-animasi-pendek-frozen-fever%2F&tbnid=cvOdWl1Ud13EoM&vet=1&docid=V6HO4QwmyNRcsM&w=1200&h=800&hl=en-GB&source=sh%2Fx%2Fim">ELSA</option>			
+                <option value="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F564x%2F05%2F05%2Fc5%2F0505c596cb3bbf41fc5aa1c5fd0c07c3.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F671388256932246164%2F&tbnid=gHIS3j6x_eRQ-M&vet=1&docid=Lb6sR5BvxRDVhM&w=564&h=705&hl=en-GB&source=sh%2Fx%2Fim">ANNA</option>			
+                <option value="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Fa9%2F3f%2F3e%2Fa93f3e07a2f013d0a6e96b23f24b22c6.jpg&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F629941066601360438%2F&tbnid=DRIiU5FtbUfSaM&vet=1&docid=9R-qyK11Dk797M&w=500&h=489&itg=1&hl=en-GB&source=sh%2Fx%2Fim">KRISTOFF</option>			
+                <option value="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fdisney%2Fimages%2F5%2F53%2FProfile_-_Olaf.jpeg%2Frevision%2Flatest%3Fcb%3D20200221075027&imgrefurl=https%3A%2F%2Fdisney.fandom.com%2Fwiki%2FOlaf&tbnid=959zyGf08sMQYM&vet=1&docid=nwzS45kixVYQmM&w=694&h=856&itg=1&hl=en-GB&source=sh%2Fx%2Fim">OLAF</option>		
+            </select>	</center>		
+            <br/>	
+            <img src="https://moviexplorers.com/para-karakter-frozen-akan-kembali-dalam-animasi-pendek-frozen-fever/" style="width: 100%" id="gambar">
+         </body>
+         <script type="text/javascript">	
+         function gantigambar()
+          {		
+              let gambar = document.getElementById("listgambar").value;		
+              document.getElementById("gambar").src = gambar;		
+              alert("Ini Gambar " + gambar);	  
+            }
+        </script>
+</html>S
